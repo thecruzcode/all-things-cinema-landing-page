@@ -96,6 +96,7 @@ section {
 .navbar__menu li {
   display: inline-block;
   /* padding: 0 0.5em; */
+  padding-right: 25px;
 }
 
 .navbar__menu .menu__link {
@@ -183,7 +184,7 @@ section {
 
   .navbar__menu .menu__link {
     font-size: 12px;
-    padding: 14px;
+    padding: 0px;
     margin-top: 22px;
   }
 }
@@ -351,13 +352,6 @@ section.active-section .landing__container::after {
 .landing__container {
   position: relative;
   top: -112px;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .landing__container {
-    position: relative;
-    top: 12px;
-  }
 }
 
 /* Section Active Styles Keyframe Animations */
