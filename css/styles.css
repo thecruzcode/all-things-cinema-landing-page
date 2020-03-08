@@ -165,7 +165,7 @@ section {
 @media only screen and (max-width: 768px) {
   .hero-tagline {
     position: relative;
-    top: -50px;
+    top: -11px;
   }
   .landing__container {
     position: relative;
